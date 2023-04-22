@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+  }
+
+.sub-grid-container {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+
+.buttonEndcriptar {
+    border-radius: 8%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.buttonDesencriptar {
+    border-radius: 8%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+

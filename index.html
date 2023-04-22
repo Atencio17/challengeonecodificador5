@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body style="background-color: #92c5fc;">
+    <div class="grid-container" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+        <div style="padding-top: 20px; padding-left: 50px; "><label style="font-size: 100px;">a</label></div>
+
+        <div class="sub-grid-container">
+            <div style="padding-top: 200px;">
+                <textarea id="texto" cols="80" rows="10" style="resize: none; border-radius: 10%; padding: 2%;"></textarea>
+            </div>
+            <div style="padding-top: 50px;">
+                <label style="font-size: xx-small;">Apenas letras minúsculas y sin acento.</label> <br><br>
+                <button class="buttonEndcriptar">Encriptar</button>
+                <button class="buttonDesencriptar"><label style="color: black;">Desencriptar</label></button>
+            </div>
+        </div>
+
+        <div class="sub-grid-container">
+            <div style="padding-top: 200px;">
+                <div style="background-color: white; border-radius: 10%; padding: 2%;">
+                    <label id="resultado">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt sequi, officiis corporis error, vero unde, at nemo illo fugit ad tempora atque exercitationem ea eligendi eius assumenda incidunt saepe!
+                    </label>
+                </div>
+            </div>
+            <div style="padding-top: 150px; text-align: center;">
+                <button class="buttonDesencriptar"><label style="color: black;">Copiar</label></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
